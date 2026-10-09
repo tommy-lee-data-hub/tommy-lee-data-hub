@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tommy Lee Data Hub — browse MTN data bundle options and contact us to place an order.">
+  <title>Tommy Lee Data Hub | MTN Data Bundles</title>
+  <style>
+    :root { --yellow:#ffcc00; --dark:#171717; --muted:#666; --bg:#f6f6f2; --white:#fff; --green:#12834b; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Arial,Helvetica,sans-serif; color:var(--dark); background:var(--bg); }
+    header { background:var(--dark); color:#fff; padding:16px 5%; display:flex; justify-content:space-between; align-items:center; gap:16px; flex-wrap:wrap; }
+    .brand { display:flex; align-items:center; gap:10px; font-weight:800; font-size:1.05rem; }
+    .logo { display:grid; place-items:center; width:42px; height:42px; border-radius:12px; background:var(--yellow); color:#111; font-weight:900; }
+    nav a { color:#fff; text-decoration:none; margin-left:18px; font-size:.95rem; }
+    .hero { padding:58px 5% 48px; background:linear-gradient(125deg,#ffdf55,var(--yellow)); }
+    .hero-inner { max-width:1100px; margin:auto; }
+    .tag { display:inline-block; background:rgba(0,0,0,.09); padding:7px 12px; border-radius:30px; font-size:.8rem; font-weight:700; }
+    h1 { font-size:clamp(2.1rem,6vw,4rem); line-height:1.03; max-width:720px; margin:18px 0 14px; }
+    .hero p { max-width:620px; line-height:1.65; color:#333; }
+    .button { display:inline-block; background:#171717; color:#fff; text-decoration:none; padding:13px 19px; border-radius:10px; font-weight:700; margin-top:10px; }
+    main { max-width:1100px; margin:0 auto; padding:34px 5% 54px; }
+    .section-title { margin-bottom:8px; font-size:1.7rem; }
+    .intro { color:var(--muted); line-height:1.6; margin-top:0; }
+    .notice { margin:22px 0; border-left:5px solid var(--yellow); background:#fff8d8; padding:14px 16px; border-radius:8px; line-height:1.5; font-size:.93rem; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:16px; margin-top:22px; }
+    .card { background:var(--white); border:1px solid #e5e5e5; border-radius:16px; padding:22px; box-shadow:0 6px 18px rgba(0,0,0,.04); }
+    .card .gb { font-size:2rem; font-weight:800; margin:10px 0 4px; }
+    .pill { display:inline-block; background:#fff0a6; border-radius:30px; padding:5px 10px; font-size:.78rem; font-weight:700; }
+    .price { font-size:1.25rem; font-weight:800; margin:12px 0; }
+    .card p { color:var(--muted); font-size:.92rem; line-height:1.5; min-height:42px; }
+    .card a { display:block; text-align:center; padding:11px; background:var(--yellow); border-radius:9px; text-decoration:none; color:#111; font-weight:800; margin-top:16px; }
+    .steps { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:14px; margin-top:18px; }
+    .step { background:#fff; padding:17px; border-radius:12px; border:1px solid #e8e8e8; }
+    .step strong { display:block; margin-bottom:7px; }
+    .contact { margin-top:34px; background:#202020; color:#fff; padding:26px; border-radius:16px; }
+    .contact p { color:#ddd; line-height:1.6; }
+    .contact a { color:#171717; background:var(--yellow); padding:12px 16px; border-radius:9px; display:inline-block; text-decoration:none; font-weight:800; }
+    footer { text-align:center; color:#666; padding:22px 5%; font-size:.85rem; }
+    @media(max-width:600px) { nav a { margin:0 12px 0 0; } .hero { padding-top:42px; } }
+  </style>
+</head>
+<body>
+<header>
+  <div class="brand"><span class="logo">TL</span><span>Tommy Lee Data Hub</span></div>
+  <nav><a href="#bundles">Bundles</a><a href="#how">How it works</a><a href="#contact">Contact</a></nav>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <span class="tag">GHANA • MTN DATA</span>
+    <h1>Stay connected.<br>Keep it simple.</h1>
+    <p>Browse our MTN data bundle options and contact us to ask about current packages. Clear information, friendly support, and easy ordering.</p>
+    <a class="button" href="#bundles">Explore bundles ↓</a>
+  </div>
+</section>
+
+<main>
+  <section id="bundles">
+    <h2 class="section-title">MTN data bundles</h2>
+    <p class="intro">Choose a package below, then contact us to confirm today's availability and price.</p>
+    <div class="notice"><strong>Demo notice:</strong> This is a starter website design. The package sizes below are examples, not confirmed offers. Replace them with verified prices and packages before publishing. Orders and payments are not processed on this demo site.</div>
+    <div class="grid">
+      <article class="card">
+        <span class="pill">STARTER</span><div class="gb">1 GB</div>
+        <p>A small example package for everyday browsing and messaging.</p>
+        <div class="price">Price: confirm with us</div>
+        <a href="#contact">Ask about this bundle</a>
+      </article>
+      <article class="card">
+        <span class="pill">POPULAR</span><div class="gb">5 GB</div>
+        <p>An example mid-size package for regular browsing and streaming.</p>
+        <div class="price">Price: confirm with us</div>
+        <a href="#contact">Ask about this bundle</a>
+      </article>
+      <article class="card">
+        <span class="pill">LARGE</span><div class="gb">10 GB</div>
+        <p>An example larger package for customers who use more data.</p>
+        <div class="price">Price: confirm with us</div>
+        <a href="#contact">Ask about this bundle</a>
+      </article>
+    </div>
+  </section>
+
+  <section id="how" style="margin-top:42px">
+    <h2 class="section-title">How to order</h2>
+    <p class="intro">A simple contact-first process while you set up an approved supplier.</p>
+    <div class="steps">
+      <div class="step"><strong>01 · Choose</strong>Pick the package you want to ask about.</div>
+      <div class="step"><strong>02 · Contact</strong>Message the business to confirm price and availability.</div>
+      <div class="step"><strong>03 · Confirm</strong>Follow the verified ordering and payment instructions provided by the business.</div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Need help choosing a bundle?</h2>
+    <p>Add your business WhatsApp number and email here. Until you add real contact details, this page is only a preview.</p>
+    <p><strong>WhatsApp:</strong> Add your business number<br><strong>Email:</strong> Add your business email</p>
+    <a href="mailto:hello@example.com?subject=MTN%20data%20bundle%20enquiry">Email us (replace this address)</a>
+  </section>
+</main>
+<footer>© <span id="year"></span> Tommy Lee Data Hub · Independent demo website. Not an official MTN website.</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
